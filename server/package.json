@@ -1,0 +1,17 @@
+{
+  "name": "kuake-server",
+  "version": "1.0.0",
+  "description": "Quark Cloud Drive REST API Server (based on kuake CLI)",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "multer": "^2.1.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
